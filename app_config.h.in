@@ -1,0 +1,5 @@
+
+#define C4wd_VERSION_MAJOR @C4wd_VERSION_MAJOR@
+#define C4wd_VERSION_MINOR @C4wd_VERSION_MINOR@
+
+#cmakedefine USE_MYMATH
