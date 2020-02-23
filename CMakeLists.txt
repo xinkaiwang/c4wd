@@ -38,6 +38,9 @@ target_include_directories(blink2
                            "${EXTRA_INCLUDES}"
                            )
 
+add_executable(blink_bcm blink_bcm.cpp)
+target_link_libraries(blink_bcm PUBLIC bcm2835)
+
 target_link_libraries(C4wd PUBLIC ${EXTRA_LIBS})
 
 target_include_directories(C4wd 
